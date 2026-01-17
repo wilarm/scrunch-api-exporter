@@ -1,0 +1,20 @@
+{
+    "rewrites": [
+        {
+            "source": "/export/assets/(.*)",
+            "destination": "/assets/$1"
+        },
+        {
+            "source": "/export/(.*)",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/export",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/",
+            "destination": "/export"
+        }
+    ]
+}
